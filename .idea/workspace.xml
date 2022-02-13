@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8363a98c-056f-4608-89c3-9f1a422feb74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/AnimalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/AnimalListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/OrderRepoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/OrderRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/OrderRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ProductRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ProductRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/ShopServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +25,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -126,7 +130,8 @@
       <updated>1644421003020</updated>
       <workItem from="1644421004956" duration="2041000" />
       <workItem from="1644505055756" duration="13124000" />
-      <workItem from="1644564948533" duration="11768000" />
+      <workItem from="1644564948533" duration="26341000" />
+      <workItem from="1644746399503" duration="15664000" />
     </task>
     <servers />
   </component>
@@ -138,7 +143,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Entwicklung" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,9 +175,14 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
