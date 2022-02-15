@@ -9,11 +9,11 @@ public class Order {
     private int bestellMenge;
 
 
-   public Order(String id, String artNr, String artName, int bestellMenge){
-        this.id = id;
+  public Order(String id, String artNr, String artName, int bestellMenge){
+         this.id = id;
         this.artNr = artNr;
-        this.artName = artName;
-        this.bestellMenge = bestellMenge;
+     //   this.artName = artName;
+     //   this.bestellMenge = bestellMenge;
     }
 
     public String getArtNr() {
