@@ -4,8 +4,17 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class OrderRepoTest {
+class ShopServiceTest {
+    @Test
+    void getProduct(){
+        // given
 
+        // when
+
+
+        //then
+
+    }
 
 
 }

@@ -1,7 +1,5 @@
 package de.neuefische.FreitagsAufgabeShop;
 
-import de.neuefische.animals.AnimalList;
-
 public class Product {
     private String artNr;
     private String artName;
@@ -17,9 +15,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Artikel{" +
-                "Art.Nr='" + artNr + '\'' +
-                ", Name='" + artName + '\'' +
-                '}';
+        return "Artikel: "+"Art.Nr= " + artNr + ", Name :" + artName;  // lieber mit +\n für Zeilenumbruch, geht aber nicht.
     }
 }

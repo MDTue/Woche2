@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8363a98c-056f-4608-89c3-9f1a422feb74" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/AnimalList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/AnimalListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/animals/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/FreitagsAufgabeShop/OrderRepoTest.java" afterDir="false" />
+    <list default="true" id="8363a98c-056f-4608-89c3-9f1a422feb74" name="Changes" comment="&quot;mit Fehler, order.java Order bleibt leer&quot;">
+      <change afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/alarm/Alarmlevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/alarm/Alarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/alarm/Alarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/alarm/AlarmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myMavenProject/src/test/java/de/neuefische/alarm/AlarmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +19,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,20 +65,7 @@
       <recent name="de.neuefische.FreitagsAufgabeShop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainShop">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.neuefische.animals.Main" />
-      <module name="myMavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.neuefische.animals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AlarmTest">
     <configuration name="MainShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.neuefische.FreitagsAufgabeShop.MainShop" />
       <module name="myMavenProject" />
@@ -93,26 +79,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDBForClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myMavenProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.neuefische.studentdb.studentasclass.*" />
+          <option name="PATTERN" value="de.neuefische.alarm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.neuefische.studentdb.studentasclass" />
-      <option name="MAIN_CLASS_NAME" value="de.neuefische.studentdb.studentasclass.StudentDBForClassesTest" />
+      <option name="PACKAGE_NAME" value="de.neuefische.alarm" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.alarm.AlarmTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.testThatNumberOfPeopleIsIsExactlyReached_green" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.alarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische.alarm" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.alarm.AlarmTest" />
+      <option name="METHOD_NAME" value="testThatNumberOfPeopleIsIsExactlyReached_green" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.testThatNumberOfPeopleIsNotYetReached_yellow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.alarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische.alarm" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.alarm.AlarmTest" />
+      <option name="METHOD_NAME" value="testThatNumberOfPeopleIsNotYetReached_yellow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.testUnknownAlarmLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.alarm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische.alarm" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.alarm.AlarmTest" />
+      <option name="METHOD_NAME" value="testUnknownAlarmLevel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlarmTest" />
+        <item itemvalue="JUnit.AlarmTest.testThatNumberOfPeopleIsNotYetReached_yellow" />
+        <item itemvalue="JUnit.AlarmTest.testUnknownAlarmLevel" />
+        <item itemvalue="JUnit.AlarmTest.testThatNumberOfPeopleIsIsExactlyReached_green" />
         <item itemvalue="Application.MainShop" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.StudentDBForClassesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,8 +162,19 @@
       <updated>1644421003020</updated>
       <workItem from="1644421004956" duration="2041000" />
       <workItem from="1644505055756" duration="13124000" />
-      <workItem from="1644564948533" duration="11768000" />
+      <workItem from="1644564948533" duration="26341000" />
+      <workItem from="1644746399503" duration="17594000" />
+      <workItem from="1644826637201" duration="1135000" />
+      <workItem from="1644921705718" duration="7756000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;mit Fehler, order.java Order bleibt leer&quot;">
+      <created>1644768461448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644768461448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,11 +185,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Entwicklung" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;mit Fehler, order.java Order bleibt leer&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;mit Fehler, order.java Order bleibt leer&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -158,9 +221,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/ProductRepo.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/myMavenProject/src/main/java/de/neuefische/FreitagsAufgabeShop/MainShop.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
